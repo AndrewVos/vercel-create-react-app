@@ -1,5 +1,3 @@
 module.exports = (req, res) => {
-  res.text({
-    new Date()
-  })
+  res.text(new Date().toString());
 };
