@@ -1,3 +1,5 @@
 module.exports = (req, res) => {
-  res.text(new Date().toString());
+  res.json({
+    body: new Date().toString(),
+  });
 };
